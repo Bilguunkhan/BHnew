@@ -28,5 +28,7 @@ namespace BikeApp.Models
         public virtual DbSet<Bike> Bikes { get; set; }
 
         public System.Data.Entity.DbSet<BikeApp.Models.HiringInfo> HiringInfoes { get; set; }
+
+        public System.Data.Entity.DbSet<BikeApp.Models.ManualRegistration> ManualRegistrations { get; set; }
     }
 }

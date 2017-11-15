@@ -15,8 +15,8 @@ SET NUMERIC_ROUNDABORT OFF;
 GO
 :setvar DatabaseName "BikeHireDatabase"
 :setvar DefaultFilePrefix "BikeHireDatabase"
-:setvar DefaultDataPath "C:\Users\pc\AppData\Local\Microsoft\VisualStudio\SSDT\BikeHireDatabase"
-:setvar DefaultLogPath "C:\Users\pc\AppData\Local\Microsoft\VisualStudio\SSDT\BikeHireDatabase"
+:setvar DefaultDataPath "C:\Users\Bilguun.NOMLOG\AppData\Local\Microsoft\VisualStudio\SSDT\BikeHireDatabase"
+:setvar DefaultLogPath "C:\Users\Bilguun.NOMLOG\AppData\Local\Microsoft\VisualStudio\SSDT\BikeHireDatabase"
 
 GO
 :on error exit

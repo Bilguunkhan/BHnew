@@ -201,6 +201,7 @@
     <Compile Include="Controllers\BikesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ManualRegistrationsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -225,6 +226,24 @@
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\ManualRegistration.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ManualRegistration.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ManualRegistration.cs">
+      <DependentUpon>ManualRegistration.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ManualRegistration.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ManualRegistration.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ManualRegistration1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ManualRegistration.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -245,6 +264,16 @@
       <DependentUpon>BikeModel.edmx</DependentUpon>
       <LastGenOutput>BikeModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Models\ManualRegistration.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ManualRegistration.edmx</DependentUpon>
+      <LastGenOutput>ManualRegistration.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\ManualRegistration.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ManualRegistration.edmx</DependentUpon>
+      <LastGenOutput>ManualRegistration1.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -256,6 +285,13 @@
     </EntityDeploy>
     <Content Include="Models\BikeModel.edmx.diagram">
       <DependentUpon>BikeModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\ManualRegistration.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ManualRegistration.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\ManualRegistration.edmx.diagram">
+      <DependentUpon>ManualRegistration.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -311,6 +347,11 @@
     <Content Include="Views\Bikes\AvailableBikes.cshtml" />
     <Content Include="Views\Bikes\Hire.cshtml" />
     <Content Include="Views\Bikes\HiringInfo.cshtml" />
+    <Content Include="Views\ManualRegistrations\Create.cshtml" />
+    <Content Include="Views\ManualRegistrations\Delete.cshtml" />
+    <Content Include="Views\ManualRegistrations\Details.cshtml" />
+    <Content Include="Views\ManualRegistrations\Edit.cshtml" />
+    <Content Include="Views\ManualRegistrations\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

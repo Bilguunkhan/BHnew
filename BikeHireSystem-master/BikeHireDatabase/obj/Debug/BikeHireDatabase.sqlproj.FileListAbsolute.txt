@@ -8,3 +8,8 @@ C:\Users\pc\Desktop\latest\BikeHireSystem-master\BikeHireDatabase\bin\Debug\Bike
 C:\Users\pc\Desktop\latest\BikeHireSystem-master\BikeHireDatabase\bin\Debug\BikeHireDatabase.pdb
 C:\Users\pc\Desktop\latest\BikeHireSystem-master\BikeHireDatabase\obj\Debug\BikeHireDatabase.dll
 C:\Users\pc\Desktop\latest\BikeHireSystem-master\BikeHireDatabase\obj\Debug\BikeHireDatabase.pdb
+C:\Users\Bilguun.NOMLOG\Desktop\BikeHireSystemLatest\BikeHireSystem-master\BikeHireDatabase\bin\Debug\BikeHireDatabase.dacpac
+C:\Users\Bilguun.NOMLOG\Desktop\BikeHireSystemLatest\BikeHireSystem-master\BikeHireDatabase\bin\Debug\BikeHireDatabase.dll
+C:\Users\Bilguun.NOMLOG\Desktop\BikeHireSystemLatest\BikeHireSystem-master\BikeHireDatabase\bin\Debug\BikeHireDatabase.pdb
+C:\Users\Bilguun.NOMLOG\Desktop\BikeHireSystemLatest\BikeHireSystem-master\BikeHireDatabase\obj\Debug\BikeHireDatabase.dll
+C:\Users\Bilguun.NOMLOG\Desktop\BikeHireSystemLatest\BikeHireSystem-master\BikeHireDatabase\obj\Debug\BikeHireDatabase.pdb
